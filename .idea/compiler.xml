@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="product-service" />
+        <module name="order-service" />
+        <module name="eureka-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="integral-service" target="1.8" />
+      <module name="orderservice" target="1.8" />
+      <module name="produst-service" target="11" />
+      <module name="uereka-service" target="1.8" />
+      <module name="是的非官方的时光" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-service" options="-parameters" />
+      <module name="integral-service" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="orderservice" options="-parameters" />
+      <module name="product-service" options="-parameters" />
+      <module name="produst-service" options="-parameters" />
+      <module name="spring-cloud-demo" options="" />
+      <module name="uereka-service" options="-parameters" />
+      <module name="是的非官方的时光" options="-parameters" />
+    </option>
+  </component>
+</project>

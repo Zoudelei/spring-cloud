@@ -1,0 +1,11 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: order-service
+user:
+  url: "http://127.0.0.1:3000/product/"
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123456@localhost:3002/eureka

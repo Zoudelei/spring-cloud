@@ -1,0 +1,14 @@
+server:
+  port: 3002
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://user:123456@localhost:3002/eureka
+security:
+  basic:
+    enabled: true #开启安全模式
+  user:
+    name: user
+    password: 123456
